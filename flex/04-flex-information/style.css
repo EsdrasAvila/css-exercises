@@ -1,26 +1,63 @@
+/* *{
+    border: solid 2px black;
+} */
 body {
-  font-family: 'Courier New', Courier, monospace;
-}
+    font-family: 'Courier New', Courier, monospace;
+    /*como todo rquiere estar centrado, desde aqui se pone*/
+    text-align: center;
+  }
+  
+  img {
+    /*Aqui le pusiste 200px pero esta bien con 100px*/
+    width: 100px;
+    height: 100px;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: 900;
+    /*Aqui se pone el margen de espacion*/
+    margin-bottom: 32px;
+  }
+  
+  /* do not edit this footer */
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+  }
 
-img {
-  width: 100px;
-  height: 100px;
-}
+  .container-plants{
+  /* MUCHO TEXTO */
+    /* align-items: center;
+    flex-direction: row;
+    align-content: space-between;
+    margin: 20px; */
 
-.title {
-  font-size: 36px;
-  font-weight: 900;
-}
+    display: flex;
+    justify-content: center;
+    gap:52px;
+  } 
 
-/* do not edit this footer */
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #eee;
-}
+  .elemento{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* EN TEXTO TAMPOCO SE ACEPTA UNA JUSTIFICACION
+     justify-content: center;
+    SI NO UN MAXIMO DE: */
+    max-width: 200px;
+  }
+  
+  /* NO SE OCUPA TEXT 200PX
+  .text{
+    width: 200px;
+  } */
+
+  
